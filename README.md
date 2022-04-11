@@ -145,3 +145,7 @@ pdfUtil.compare(file1, file2);
 
 The difference is shown as
 ![diff](http://i1.wp.com/www.testautomationguru.com/wp-content/uploads/2015/06/pdfu003.png)
+
+# Copyright Information Outdated
+
+This repo contains changes originally authored by diptman as well as the base pdf-util from uselvvi. I, jwatchdog, have merely implemented stuff I needed on top of that. Work in progress.
