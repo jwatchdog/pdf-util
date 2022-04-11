@@ -29,8 +29,25 @@ mvn package
 * Using command line
 
 ```
-java -jar target/pdf-util.jar file1.pdf file2.pdf [Optional:image-destination-path]
+java -jar target/pdf-util.jar file1.pdf file2.pdf [Optional:image-destination-path [Optional: create PDF, default false]]
 ```
+
+# Examples
+
+* To generate diffs as PNG files
+
+```
+java -jar target/pdf-util.jar file1.pdf file2.pdf c:/Users/jwatchdog/output
+```
+
+
+* To generate a PDF with diffs
+
+```
+java -jar target/pdf-util.jar file1.pdf file2.pdf c:/Users/jwatchdog/output true
+```
+
+## Coding Examples
 
 * To get page count
 
